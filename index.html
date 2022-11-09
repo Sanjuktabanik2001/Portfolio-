@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content=""IE=edge>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sanjukta Banik || Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c0d40ee82d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Modules</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Sanjukta Banik</span></h1>
+                <p>I design & build user interfaces, sing & write</p>
+                
+            </div>
+
+            
+        </div>
+
+    </div>
+    <!-------------ABOUT--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Sanjukta Banik aka Jinia👋.<br>  <br> I had been a tech enthusiast from my childhood who always loved playing with computer and mathematics.For that, I wanted to pursue Computer Science but couldn't do it due to circumstances and landed with Electrical Engineering but this couldn't stop me from working with codes.💻 <br>  <br>I'am an EE undergrad student, who has a deep love for website designing and development. <br>  <br>I was a content writer at <a href="https://www.quora.com/profile/Sanjukta-Banik-5?ch=10&oid=1135479140&share=29a05177&srid=uTKx8z&target_type=user">Quora</a> and also a <a href="https://aroundtheworldinthetwenties.blogspot.com/">Travel Blogger</a>✍ <br>  <br> I tried web development and many other domains but instantly found out that this web development and designing of turning a blank black page into something really fun is one of the things I love doing.<br>   <br>I'm always open to learn new stuffs and accept constructive feedbacks.❤ <br> <br> <br> <b> Currently looking for Internships</b></p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Designing and Development of Websites</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Dec 2021 – Jan 2022</span><br>Trainee, <i>Tripura Power Generation Limited</i><br>→BARAMURA GAS THERMAL POWER STATION (Electrical Division) under Tripura PowerGeneration Limited(TPGL) govt. of Tripura.<br>→BHEL manufactured Gas Turbine Generator(GTG: MS5001) and it's principles.<br>→Auto Transformer(30MVA, 66/132 KV) and Power Transformer(37.5 MVA, 11/132 KV)<br>→66 KV and 132 KV switchyard.</li>
+                            <li><span>2020 – 2021</span><br>Content Writer, <i>GraphicExperts</i><br>→Assisted in the Fourth International Revolution</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 – 2024</span><br>B. Tech in Electrical Engineering, <i>National Institute of Technology, Agartala</i><br>CGPA: 8.81/10</li>
+                            <li><span>2018 – 2020</span><br>XII(Higher Secondary),<i>Science, Shishu Bihar H.S. School, Agartala, Tripura</i><br>CGPA: 7.1/10</li>
+                            <li><span>2012 – 2018</span><br>X(Secondary), <i>Shishu Bihar H.S. School, Agartala, Tripura</i><br>CGPA: 8.6/10</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--------------------I AM CURRENTLY WORKING ON------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">I'm currently working with</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>As python is open-source, so python is having a large number of different libraries, modules and packages to help our projects. I am learning python as a part of wider data analytics skill set which can make me as a stronger candidate for data analysts.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>MySQL</h2>
+                <p>Nowadays, from startups to established companies, the job market looks good for SQL enthusiats.Accessing data, managing and retrieving them has now become comparitively easy using MYSQL and it is also having a huge demand in the Indian job market.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--------------------Portfolio---------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div  class="work">
+                <img src="images/work1.jpg">
+                <div class="layer">
+                    <h3>Music Player</h3>
+                    <p>This is a Music Player I made to practice my newly acquired HTML,CSS, AND JS skills.It's named as 'Play The Beat'. It helps you to listen some of my favourites from my Playlist</p>
+                    <a href="https://sanjuktabanik2001.github.io/Music-Player-Using-HTML-CSS-Javascript"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div  class="work">
+                <img src="images/work2.jpg">
+                <div class="layer">
+                    <h3>Travel Log App</h3>
+                    <p>This will allow people to share their travel experience to a community of other travellers using this web application. They can browse travel experiences of other people , add their own experiences etc.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!--------------------CONTACTS---------------->
+<div id="contact">
+    <div class="container">
+       <div class="row">
+         <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>sanjuktabanik2001@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+91 6009807020</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/sanjukta.banik.90/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="www.linkedin.com/in/sanjuktabanik"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Sanjuktabanik2001"><i class="fa-brands fa-github"></i></a>
+                <a href="https://instagram.com/sanjukta.banik?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1SwXq4HSp0e1jjMIGFk9AUNH7aza0xL90/view?usp=sharing" class="btn btn2">Resume</a>
+         </div>
+         <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="text" name="Email" placeholder="Your Email-id" required>
+                <textarea name="Message" rows="7" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form> 
+            <span id="msg"></span>           
+        </div>
+       </div> 
+    </div>
+    <div class="copyright">
+        <p>Copyright @Sanjukta<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+</script>
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxVPLg04uUhyMxldo-ttun83BwmcL35VMIzwV5XOnPjYs7K8MwYIylqk-zRUS7m7EZkgA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
