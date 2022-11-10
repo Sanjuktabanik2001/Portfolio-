@@ -335,7 +335,7 @@ nav .fa-solid{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/final\ gif.gif);
+        background-image: url(images/phone\ gif.gif);
     }
     .header-text{
         margin-top: 100%;
